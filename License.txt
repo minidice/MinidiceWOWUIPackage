@@ -1,0 +1,14 @@
+﻿MiniDice WOW Addon Package v1.0.0
+
+본 라이센스와 함께 제공되는 소프트웨어는 
+Blizzard Entertainment, Inc.의 보증과 고객지원을 받을 수 없습니다. 
+설치 후 발생하는 모든 문제는 전적으로 사용자 본인에게 있으며, 
+Blizzard Entertainment, Inc.와 제작자 "의문"은 보상의 책임이 없습니다.
+해당 프로그램은 설치만 지원하는 프로그램으로
+각 개별 애드온은 각각의 라이센스에 따릅니다.
+
+듀로탄서버 의문의타락천사 Min2.net
+
+마지막 수정날짜 : 2013.09.17
+
+사이트 : http://min2.net/project/index.php?int_num=7&str_page=WOW_UI/index.php#SP
