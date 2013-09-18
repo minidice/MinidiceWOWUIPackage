@@ -200,6 +200,22 @@ SectionGroup /e "업적" achieve
  
 SectionGroupEnd ; 
 
+SectionGroup /e "레이드" raid
+
+ Section "VuhDo 공격대프레임" VuhDo
+ SectionIn 1 2 ;
+  SetOutPath "$INSTDIR\Interface"
+  File /a /r "d:\Wow_UI\wowui2\VuhDo\AddOns"
+ SectionEnd 
+
+ Section "DBM 레이드경보기" DBM
+ SectionIn 1 2;
+  SetOutPath "$INSTDIR\Interface"
+  File /a /r "d:\Wow_UI\wowui2\DBM\AddOns"
+ SectionEnd 
+ 
+SectionGroupEnd ; 
+
 SectionGroup /e "기타" etc
 
  Section "StatusBars2" StatusBars2
@@ -243,6 +259,11 @@ SectionGroupEnd ;
   !insertmacro MUI_DESCRIPTION_TEXT ${TabardAddict} "Tabard Addict" 
   !insertmacro MUI_DESCRIPTION_TEXT ${RaidAchievementFilter} "RaidAchievementFilter"
 
+!insertmacro MUI_DESCRIPTION_TEXT ${raid} "레이드"
+  !insertmacro MUI_DESCRIPTION_TEXT ${VuhDo} "VuhDo 공격대프레임"
+  !insertmacro MUI_DESCRIPTION_TEXT ${DBM} "DBM"   
+  
+  
 !insertmacro MUI_DESCRIPTION_TEXT ${etc} "기타"
   !insertmacro MUI_DESCRIPTION_TEXT ${StatusBars2} "StatusBars2"
   !insertmacro MUI_DESCRIPTION_TEXT ${MarkingBar} "Marking Bar" 
