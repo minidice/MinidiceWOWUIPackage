@@ -70,8 +70,8 @@ Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
 BrandingText /TRIMRIGHT "${PRODUCT_NAME}"
 OutFile "MiniDiceWOWUI.exe"
 
-;InstallDirRegKey HKLM "SOFTWARE\Blizzard Entertainment\World of Warcraft" "InstallPath"
-InstallDirRegKey HKLM "SOFTWARE\Wow5432Node\Microsoft\Windows\Currentversion\Unistall\월드 오브 워크래프트" "InstallLocation"
+InstallDirRegKey HKLM "SOFTWARE\Blizzard Entertainment\World of Warcraft" "InstallPath"
+;InstallDirRegKey HKLM "SOFTWARE\Wow5432Node\Microsoft\Windows\Currentversion\Unistall\월드 오브 워크래프트" "InstallLocation"
 
 InstallDir $INSTDIR
 ShowInstDetails show
